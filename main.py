@@ -1,7 +1,8 @@
 # Простое число
 def prost(x):
     for i in range(2, x // 2 + 1):
-        return False
+        if x%i==0:
+            return False
     return True
 
 
